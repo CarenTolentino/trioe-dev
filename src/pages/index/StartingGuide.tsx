@@ -9,7 +9,7 @@ const StartingGuide = () => {
   };
 
   return (
-    <div className="mt-11 grid grid-cols-1 gap-4 p-8 md:grid-cols-2">
+    <div className="ml-12 mt-11 grid grid-cols-1 gap-4 p-8 md:grid-cols-2">
       <div className="col-span-1 rounded-lg bg-gray-100 p-2">
         <h2 className="mb-4 text-2xl font-bold">
           <span className="text-blue-900">STARTING GUIDE</span>

@@ -45,7 +45,7 @@ const Base = () => {
     <div className="text-gray-600 antialiased">
       <Background color="bg-gray-100">
         <Section yPadding="py-6">
-          <nav className="fixed left-0 top-0 z-20 w-full border-b border-gray-200 bg-gradient-to-r from-green-500 to-blue-400 dark:border-gray-600 dark:bg-gradient-to-r">
+          <nav className="fixed start-0 top-0 z-20 w-full border-b border-gray-200 bg-gradient-to-r from-[#446EAD] via-[#70A4DA] to-[#F0F4F5] drop-shadow-md dark:border-gray-600 dark:bg-gradient-to-r">
             <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
               <Link
                 href="/"
@@ -100,11 +100,11 @@ const Base = () => {
           </nav>
         </Section>
 
-        <Section yPadding="pt-6 pb-7">
-          <h1 className="mb-4 text-center text-3xl font-bold leading-tight">
+        <Section yPadding="pt-10">
+          <h1 className=" mt-12 text-center text-3xl font-bold leading-tight text-gray-700">
             LEARNING KIT
           </h1>
-          <div className="container mx-auto py-40 md:px-0">
+          <div className="container mx-auto py-20 md:px-0">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <div className="rounded-lg bg-white p-4 shadow-md">
                 <div className="flex items-center justify-between"></div>
@@ -120,9 +120,9 @@ const Base = () => {
 
               <div className="mb-2 leading-tight text-black">
                 <h2 className="mt-10 text-6xl font-bold ">
-                  <span className="text-primary-500">Standard</span>
+                  <span className="text-primary-600">Standard</span>
                   <br />
-                  <span className="text-green-800 ">MU KIT</span>
+                  <span className="text-primary-700 ">MU KIT</span>
                 </h2>
                 <p>
                   A comprehensive learning tools & kit designed for advanced

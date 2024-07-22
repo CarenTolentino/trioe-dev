@@ -21,7 +21,7 @@ const Base = () => (
     {/* <Hero /> */}
     <Background color="bg-gray-100">
       <Section yPadding="py-6">
-        <nav className="fixed start-0 top-0 z-20 w-full border-b border-gray-200 bg-gradient-to-r from-green-500 to-blue-400 dark:border-gray-600 dark:bg-gradient-to-r">
+        <nav className="fixed start-0 top-0 z-20 w-full border-b border-gray-200 bg-gradient-to-r from-[#446EAD] via-[#70A4DA] to-[#C5F4F6] drop-shadow-md dark:border-gray-600 dark:bg-gradient-to-r">
           <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
             <Link
               href="/"
@@ -39,7 +39,7 @@ const Base = () => (
             <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
               <button
                 type="button"
-                className="rounded-lg bg-blue-700 px-4 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="rounded-lg bg-blue-500 px-4 py-2 text-center text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Community
               </button>
@@ -93,8 +93,8 @@ const Base = () => (
       <Section yPadding="pt-2 pb-32">
         <div className=" md:fflex-col flex flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center md:flex-col">
-            <h1 className="text-4xl font-bold text-primary-500">TRIOE</h1>
-            <h2 className="f text-xl text-black">
+            <h1 className="text-4xl font-bold text-primary-700">TRIOE</h1>
+            <h2 className="f text-2xl text-black">
               Tinkering Resource For Internet of Everything
             </h2>
             <p className="mt-4 text-center">
@@ -109,7 +109,7 @@ const Base = () => (
           <div className="mt-8 md:w-1/2">
             <div className="flex justify-center ">
               <Link href="/">
-                <Button className="rounded-lg bg-blue-500 px-6 py-3 text-center text-sm font-medium text-white hover:bg-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <Button className="rounded-lg bg-blue-500 px-6 py-3 text-center text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Start Learning
                 </Button>
               </Link>

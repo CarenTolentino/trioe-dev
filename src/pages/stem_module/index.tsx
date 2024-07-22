@@ -7,7 +7,7 @@ const Base = () => (
   <div className="text-gray-600 antialiased">
     <Background color="bg-gray-100">
       <Section yPadding="py-6">
-        <nav className="fixed start-0 top-0 z-20 w-full border-b border-gray-200 bg-gradient-to-r from-green-500 to-blue-400 dark:border-gray-600 dark:bg-gradient-to-r">
+        <nav className="fixed start-0 top-0 z-20 w-full border-b border-gray-200 bg-gradient-to-r from-[#446EAD] via-[#70A4DA] to-[#F0F4F5] drop-shadow-md dark:border-gray-600 dark:bg-gradient-to-r">
           <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
             <Link
               href="/"
@@ -71,7 +71,7 @@ const Base = () => (
         </div>
         <br />
         <div className="container mx-auto px-4 md:px-0">
-          <h1 className="mb-4 text-3xl font-bold leading-tight text-amber-500">
+          <h1 className="mb-4 text-3xl font-bold leading-tight text-primary-800">
             STEAM LEARNING MODULE
           </h1>
 
@@ -97,7 +97,7 @@ const Base = () => (
       </Section>
       <hr className="my-4 border-gray-300 dark:border-gray-700" />
       <Section yPadding="pt-12 pb-3">
-        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-amber-500 md:px-0">
+        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-green-700 md:px-0">
           Sample outputs
         </h1>
         <div className="container mx-auto  grid grid-cols-2 gap-4 px-4 md:grid-cols-2 md:px-4">
@@ -154,7 +154,7 @@ const Base = () => (
 
       <hr className="my-4 border-gray-300 dark:border-gray-700" />
       <Section yPadding="pt-12 pb-0">
-        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-amber-500 md:px-0">
+        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-green-700 md:px-0">
           Programming Activity Guide
         </h1>
         <table className="container mx-auto table-auto px-4 md:px-0">
@@ -193,7 +193,7 @@ const Base = () => (
 
       <hr className="my-4 border-gray-300 dark:border-gray-700" />
       <Section yPadding="pt-12 pb-0">
-        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-amber-500 ">
+        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-green-700 ">
           Specifications
         </h1>
         <ul className="list-inside list-disc">
@@ -203,7 +203,7 @@ const Base = () => (
         </ul>
       </Section>
       <Section yPadding="pt-6 pb-20">
-        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-amber-500 md:px-0">
+        <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-green-700 md:px-0">
           Requirements
         </h1>
         <ul className="list-inside list-disc">

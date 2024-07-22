@@ -2,8 +2,10 @@ import { Section } from '@/layout/Section';
 
 const TrioeKits = () => (
   <Section>
-    <h1 className="mb-4 text-2xl font-bold text-blue-900">TRIOE KITS</h1>
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    <h1 className="mb-8 flex items-center justify-center text-3xl font-bold text-blue-900 ">
+      TRIOE KITS
+    </h1>
+    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
       {[
         {
           title: 'STEM Learning Kit',

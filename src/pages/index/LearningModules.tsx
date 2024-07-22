@@ -14,7 +14,7 @@ const LearningModules = ({
   image: string;
   imageAlt: string;
 }) => (
-  <Popover className="relative">
+  <Popover className="relative flex h-full flex-col">
     {/* Trigger */}
     <div className="flex size-full cursor-pointer flex-col items-center  overflow-hidden rounded-lg bg-white p-0 shadow hover:bg-gray-100 dark:hover:bg-gray-800">
       <div className="flex flex-col items-center justify-center ">
@@ -59,7 +59,9 @@ const Grid = ({ children }: { children: React.ReactNode }) => (
 
 const LearningModulesGrid = () => (
   <Section>
-    <h1 className="mb-4 text-2xl font-bold text-blue-900">Learning Modules</h1>
+    <h1 className="mb-8 flex items-center justify-center text-3xl font-bold text-blue-900">
+      LEARNING MODULES
+    </h1>
     <Grid>
       <Link href="/stem_module/" passHref>
         <LearningModules
