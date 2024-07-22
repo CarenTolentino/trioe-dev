@@ -21,7 +21,7 @@ const TrioeKits = () => (
             'A comprehensive learning tools & kit designed for advanced knowledge expertise required for DIY projects where users are working with various frequencies of technology and exploring diverse wavelengths of innovation.',
           image: '/assets/images/kit/image-product-1.jpg',
           imageAlt: 'Learning Modules',
-          href: '/kits/advanced-learning-kit', // Add the href here
+          href: '/stem_module/', // Add the href here
         },
       ].map((module, i) => (
         <a

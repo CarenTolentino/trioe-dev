@@ -4,7 +4,7 @@ import { Section } from '../../layout/Section';
 import Logo from './Logo';
 
 const Footer = () => (
-  <Background color="bg-gray-100 ">
+  <Background color="bg-gray-100">
     <Section>
       <CenteredFooter
         logo={<Logo />}
@@ -12,6 +12,7 @@ const Footer = () => (
       >
         {/* Add any footer content here if needed */}
         {/* <p className="text-sm text-gray-600">&copy; 2024 Your Company</p> */}
+        <div /> {/* Empty div to satisfy the children requirement */}
       </CenteredFooter>
     </Section>
   </Background>
