@@ -109,7 +109,7 @@ const Base = () => (
             />
             <div className="p-4">
               <h4 className="text-lg font-extrabold text-blue-900">
-                Soldering with the TRIOE Kit
+                Setup and First Boot
               </h4>
             </div>
           </div>
@@ -121,7 +121,7 @@ const Base = () => (
             />
             <div className="p-4">
               <h4 className="text-lg font-extrabold text-blue-900">
-                Basic Electronic Components
+              Blinking Built-in LED
               </h4>
             </div>
           </div>
@@ -133,7 +133,7 @@ const Base = () => (
             />
             <div className="p-4">
               <h4 className="text-lg font-extrabold text-blue-900">
-                Basic LED Circuit
+              Multiple Blinking of LED
               </h4>
             </div>
           </div>
@@ -145,10 +145,11 @@ const Base = () => (
             />
             <div className="p-4">
               <h4 className="text-lg font-extrabold text-blue-900">
-                Basic Uploading Trioe
+              Adjustable BLinking Rate of LED
               </h4>
             </div>
           </div>
+          
         </div>
       </Section>
 
@@ -164,26 +165,48 @@ const Base = () => (
               <td className="border border-gray-200 p-2">Title</td>
               <td className="border border-gray-200 p-2">Learning Hours</td>
               <td className="border border-gray-200 p-2">Class</td>
+             
             </tr>
             <tr>
               <td className="border border-gray-200 p-2">1</td>
               <td className="border border-gray-200 p-2">
-                Soldering with the TRIOE Kit
+              <a href="/stem_module_act1_uploading/"><span className="underline text-blue-600">Setup and First Boot with Trioe</span></a>
               </td>
               <td className="border border-gray-200 p-2">20 Mins</td>
               <td className="border border-gray-200 p-2">Beginner</td>
+          
             </tr>
             <tr>
               <td className="border border-gray-200 p-2">2</td>
               <td className="border border-gray-200 p-2">
-                Basic Electronic Components
+              <a href="/stem_module_act1_uploading/"><span className="underline text-blue-600">Soldering With Trioe</span></a>
               </td>
               <td className="border border-gray-200 p-2">20 Mins</td>
               <td className="border border-gray-200 p-2">Beginner</td>
             </tr>
             <tr>
               <td className="border border-gray-200 p-2">3</td>
-              <td className="border border-gray-200 p-2">Basic LED Circuit</td>
+              <td className="border border-gray-200 p-2">
+              <a href="https://github.com/MJBeltran13/trioe/tree/main/examples/Smart_Building_Kit_Beginner_Blink_Act_1"><span className="underline text-blue-600">Blink Activity 1</span></a>
+              </td>
+              <td className="border border-gray-200 p-2">20 Mins</td>
+              <td className="border border-gray-200 p-2">Beginner</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-200 p-2">4</td>
+              <td className="border border-gray-200 p-2"> <a href="https://github.com/MJBeltran13/trioe/tree/main/examples/Smart_Building_Kit_Beginner_Blink_Act_2"><span className="underline text-blue-600">Blink Activity 2</span></a></td>
+              <td className="border border-gray-200 p-2">20 Mins</td>
+              <td className="border border-gray-200 p-2">Beginner</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-200 p-2">5</td>
+              <td className="border border-gray-200 p-2"> <a href="https://github.com/MJBeltran13/trioe/tree/main/examples/Smart_Building_Kit_Beginner_Blink_Act_3"><span className="underline text-blue-600">Blink Activity 3</span></a></td>
+              <td className="border border-gray-200 p-2">20 Mins</td>
+              <td className="border border-gray-200 p-2">Beginner</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-200 p-2">6</td>
+              <td className="border border-gray-200 p-2"> <a href="https://github.com/MJBeltran13/trioe/tree/main/examples/Smart_Building_Kit_Beginner_Blink_Act_4"><span className="underline text-blue-600">Blink Activity 4</span></a></td>
               <td className="border border-gray-200 p-2">20 Mins</td>
               <td className="border border-gray-200 p-2">Beginner</td>
             </tr>
