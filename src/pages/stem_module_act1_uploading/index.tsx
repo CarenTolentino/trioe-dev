@@ -4,15 +4,18 @@ import { Background } from '@/background/Background';
 import { Section } from '@/layout/Section';
 
 const images = [
-  "/assets/images/smarthome/beginner/step1.png",
-  "/assets/images/smarthome/beginner/step2.png",
-  "/assets/images/smarthome/beginner/step3.png"
+  "/assets/images/stem_mdl_act1_picts/8.png",
+  "/assets/images/stem_mdl_act1_picts/9.png",
+  "/assets/images/stem_mdl_act1_picts/10.png",
+  "/assets/images/stem_mdl_act1_picts/11.png",
+  "/assets/images/stem_mdl_act1_picts/12.png"
 ];
 
 const images_2 = [
-  "/assets/images/smarthome/beginner/step1.png",
-  "/assets/images/smarthome/beginner/step2.png",
-  "/assets/images/smarthome/beginner/step3.png"
+  "/assets/images/stem_mdl_act1_picts/13.png",
+  "/assets/images/stem_mdl_act1_picts/14.png",
+  "/assets/images/stem_mdl_act1_picts/15.png",
+  "/assets/images/stem_mdl_act1_picts/16.png"
 ];
 
 const Base = () => {
@@ -128,6 +131,9 @@ const Base = () => {
               <div className="p-4">
                 <h3 className="text-xl font-bold">Step 4: Connect Your Arduino Board</h3>
                 <ol className="list-decimal ml-4">
+                  <li>
+                    
+                  </li>
                   <li>Go to Tools &gt; Board and select ESP32 Dev Module (TRIOE).</li>
                   <li>Go to Tools &gt; Port and select the port to which your TRIOE board is connected.</li>
                 </ol>
@@ -153,6 +159,52 @@ const Base = () => {
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+        </Section>
+
+
+        <Section yPadding="pt-12 pb-0">
+          <br />
+          <div className="container mx-auto px-4 md:px-0">
+            <h1 className="mb-4 text-3xl font-bold leading-tight text-primary-800">
+              Troubleshooting
+            </h1>
+            <hr className="my-4 border-gray-300 dark:border-gray-700" />
+           
+            <div className="grid gap-4 md:grid-cols-1">
+              <div className="mb-8">
+                <p>Arduino bootloader doesn't respond</p>
+                <p>If you get the following error message avrdude: <span className="font-bold text-red-600 bg-red-200 rounded  "> stk500_recv(): not in sync</span>   or  <span className="font-bold text-red-600 bg-red-200 rounded  "> avrdude: stk500_recv():  programmer is not responding </span>, that means that the Arduino bootloader is not responding.stk500_getsync(): not in sync or avrdude: stk500_recv(): programmer is not responding, that means that the Arduino bootloader is not responding.</p>
+                <div className="mx-auto max-w-[500px]">
+                <img src= "/assets/images/stem_mdl_act1_picts/17.png" className="mx-auto" alt="Arduino disconnected" />
+                </div>
+                <p>This error can be caused by a lot of issues. Check the following:</p>
+                <ul className="list-disc ml-4">
+                  <li>Is the correct Arduino Board selected?</li>
+                  <li>Is the correct Serial Port selected?</li>
+                  <li>Is the correct driver installed?</li>
+                  <li>Is something connected to the Reset pin or pressing the reset button?</li>
+                  <li>Try disconnecting all connected shields, jumper wires and components</li>
+                  <li>Is the chip inserted into the Arduino properly? (If you built your own Arduino or have burned the bootloader on yourself)</li>
+                  <li>Does the chip have the correct bootloader on it? (If you built your own Arduino or have burned the bootloader on yourself)</li>
+                </ul>
+              </div>
+            </div>
+            <div className="mb-8">
+              <p>Can't open serial port device</p>
+              <p>If you get an error like <span className="font-bold text-red-600 bg-red-200 rounded  ">ser_open(): can't open device</span>  it likely means your Arduino got disconnected from USB somehow</p>
+              <div className="mx-auto max-w-[500px]">
+                <img src= "/assets/images/stem_mdl_act1_picts/18.png" className="mx-auto" alt="Arduino disconnected" />
+              </div>
+              <p>This error can be caused by a few possible issues. Check the following:</p>
+              <ul className="list-disc ml-4">
+                <li>Is the correct Serial Port selected?</li>
+                <li>Is the correct driver installed?</li>
+                <li>Try unplugging/replugging the USB cable</li>
+                <li>Try another USB cable or USB port</li>
+                <li>Your computer's USB system may have crashed. Shutdown your computer, disconnect power, wait 3 minutes then restart it</li>
+              </ul>
             </div>
           </div>
         </Section>

@@ -64,7 +64,7 @@ const Base = () => (
       <Section yPadding="pt-12 pb-0">
         <div className="container mx-auto px-4 md:px-0">
           <img
-            src="/assets/images/placeholder_image.png"
+            src="/assets/images/stem_mdl_act1_picts/steam_module.png"
             alt="Steam Module"
             className="center mx-auto w-1/2"
           />
@@ -104,7 +104,7 @@ const Base = () => (
           <div className="overflow-hidden rounded-lg bg-white p-0 shadow hover:bg-gray-100 dark:hover:bg-gray-800">
             <img
               className="max-h-296 h-296 mb-2 w-full object-cover"
-              src="/assets/images/placeholder_image.png"
+              src="/assets/images/stem_mdl_act1_picts/stem_module/4.png"
               alt="Card Image"
             />
             <div className="p-4">
@@ -116,7 +116,7 @@ const Base = () => (
           <div className="overflow-hidden rounded-lg bg-white p-0 shadow hover:bg-gray-100 dark:hover:bg-gray-800">
             <img
               className="max-h-296 h-296 mb-2 w-full object-cover"
-              src="/assets/images/placeholder_image.png"
+              src="/assets/images/stem_mdl_act1_picts/stem_module/5.png"
               alt="Card Image"
             />
             <div className="p-4">
@@ -128,7 +128,7 @@ const Base = () => (
           <div className="overflow-hidden rounded-lg bg-white p-0 shadow hover:bg-gray-100 dark:hover:bg-gray-800">
             <img
               className="max-h-296 h-296 mb-2 w-full object-cover"
-              src="/assets/images/placeholder_image.png"
+              src="/assets/images/stem_mdl_act1_picts/stem_module/6.png"
               alt="Card Image"
             />
             <div className="p-4">
@@ -140,7 +140,7 @@ const Base = () => (
           <div className="overflow-hidden rounded-lg bg-white p-0 shadow hover:bg-gray-100 dark:hover:bg-gray-800">
             <img
               className="max-h-296 h-296 mb-2 w-full object-cover"
-              src="/assets/images/placeholder_image.png"
+              src="/assets/images/stem_mdl_act1_picts/stem_module/7.png"
               alt="Card Image"
             />
             <div className="p-4">
@@ -165,7 +165,6 @@ const Base = () => (
               <td className="border border-gray-200 p-2">Title</td>
               <td className="border border-gray-200 p-2">Learning Hours</td>
               <td className="border border-gray-200 p-2">Class</td>
-             
             </tr>
             <tr>
               <td className="border border-gray-200 p-2">1</td>
@@ -215,7 +214,7 @@ const Base = () => (
       </Section>
 
       <hr className="my-4 border-gray-300 dark:border-gray-700" />
-      <Section yPadding="pt-12 pb-0">
+      {/* <Section yPadding="pt-12 pb-0">
         <h1 className="container mx-auto  mb-4 px-4 text-xl font-bold leading-tight text-green-700 ">
           Specifications
         </h1>
@@ -234,7 +233,7 @@ const Base = () => (
           <li>Basic knowledge of electronics</li>
           <li>TRIOE Kit</li>
         </ul>
-      </Section>
+      </Section> */}
 
       <div className="mx-auto mb-10 flex max-w-screen-xl flex-col items-center justify-center bg-white px-4">
         <div className="mt-5 bg-white">
