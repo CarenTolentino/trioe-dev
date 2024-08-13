@@ -76,21 +76,11 @@ const Base = () => (
           </h1>
 
           <hr className="my-4 border-gray-300 dark:border-gray-700" />
-          <div className="grid  gap-4 md:grid-cols-2">
+          <div className="grid  gap-4 md:grid-cols-1">
             <div className="mb-8">
-              TAs a modular electronic platform for quick prototyping, this kit
-              contains 6 input modules and 6 output modules with simplify
-              wiring. Each module comes with Arduino library for quick
-              programming. Creat your own project!
-              <ul className="list-inside list-disc">
-                <li>Open-Customization and Flexibility</li>
-                <li>Open-Source Foundation</li>
-                <li>Diverse Connectivity Options</li>
-                <li>Accessibility for Developers of All Levels</li>
-                <li>Comprehensive Sensor Integration</li>
-                <li>Expanding IoT Development Horizons</li>
-                <li>Community Building and Collaboration</li>
-              </ul>
+            The STEAM learning modules are designed to align with the science curriculum and everyday life contexts. These hands-on activities help students apply their knowledge of science, math, and technology, and 
+            understand basic engineering concepts. The modules also teach basic programming, helping students see how science and technology are used in real life, and improving their problem-solving and creative thinking skills.
+              
             </div>
           </div>
         </div>

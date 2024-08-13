@@ -10,7 +10,7 @@ const Banner = () => (
       title="TRIOE:Tinkering Resources for Internet of Everything."
       subtitle="Start your programming journey."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="http://atlas.batstate-u.edu.ph:3000" target="_blank" rel="noopener noreferrer">
           <Button>Community</Button>
         </Link>
       }

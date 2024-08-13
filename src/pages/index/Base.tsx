@@ -1,4 +1,3 @@
-import { Button } from '@headlessui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -40,9 +39,13 @@ const Base = () => (
               <button
                 type="button"
                 className="rounded-lg bg-blue-500 px-4 py-2 text-center text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                onClick={() =>
+                  (window.location.href = 'http://atlas.batstate-u.edu.ph:3000')
+                }
               >
                 Community
               </button>
+
               <button
                 data-collapse-toggle="navbar-sticky"
                 type="button"
@@ -106,15 +109,7 @@ const Base = () => (
             </p>
           </div>
 
-          <div className="mt-8 md:w-1/2">
-            <div className="flex justify-center ">
-              <Link href="/">
-                <Button className="rounded-lg bg-blue-500 px-6 py-3 text-center text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Start Learning
-                </Button>
-              </Link>
-            </div>
-          </div>
+          <div className="mt-8 md:w-1/2"></div>
         </div>
       </Section>
     </Background>
